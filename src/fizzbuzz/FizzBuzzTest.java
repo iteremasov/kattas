@@ -1,5 +1,8 @@
+package fizzbuzz;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import fizzbuzz.FizzBuzz;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
@@ -35,7 +38,7 @@ public class FizzBuzzTest {
 
     @Test
     void test15() {
-        assertEquals("FizzBuzz", this.fizzBuzz.getFizzBuzz(15));
+        assertEquals("fizzbuzz.FizzBuzz", this.fizzBuzz.getFizzBuzz(15));
     }
 
     @Test

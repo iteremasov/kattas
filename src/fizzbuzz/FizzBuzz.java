@@ -1,3 +1,5 @@
+package fizzbuzz;
+
 import java.io.Serializable;
 
 public class FizzBuzz {
